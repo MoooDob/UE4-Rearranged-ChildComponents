@@ -30,7 +30,7 @@ My algorithm which calculates the location, rotation and scaling of the created 
 
 But have a look at the animation:
 
-![UE4 Component reordered](images/UE4 Component reordered.gif)
+![UE4 Component reordered](images/UE4_Component_reordered.gif)
 
 ## Recreate this behavior
 
