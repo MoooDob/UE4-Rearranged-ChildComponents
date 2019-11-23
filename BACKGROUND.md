@@ -9,7 +9,7 @@ The tree-like structures that I was supposed to visualize were very large. There
 
 Since it should be better because of the draw calls to have as few actors as possible, I decided to create the structural elements of components and to attach them to an actor. So I programmed a branch component (based on `USceneComponent`) and a leaf component (based on `UStaticMeshComponent`). An actor could read in a file in which the tree structure was defined and generate the structure as a nested component structure of branch and leaf components. The names of the components were generated from the name of the respective element as well as its position in the tree. The location, rotation and scaling resulted from the position in the tree and was automatically updated as soon as a new component was added.
 
-![Mapping of the tree elements to UE4 components](images\TreeUE4.gif)
+![Mapping of the tree elements to UE4 components](images/TreeUE4.gif)
 
 ## Myterious
 
@@ -30,7 +30,7 @@ My algorithm which calculates the location, rotation and scaling of the created 
 
 But have a look at the animation:
 
-![UE4 Component reordered](images\UE4 Component reordered.gif)
+![UE4 Component reordered](images/UE4 Component reordered.gif)
 
 ## Recreate this behavior
 
